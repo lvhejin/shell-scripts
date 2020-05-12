@@ -91,3 +91,5 @@ EOF
 
 chmod +x ${CMD}
 
+# 单词用法： yd zoo
+# 批量用法： for i in `awk -F: '{print $1}' /etc/passwd^Cdo echo $i|xargs yd;done
