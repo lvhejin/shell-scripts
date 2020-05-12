@@ -91,5 +91,11 @@ EOF
 
 chmod +x ${CMD}
 
-# 单词用法： yd zoo
-# 批量用法： for i in `awk -F: '{print $1}' /etc/passwd^Cdo echo $i|xargs yd;done
+
+#安装
+#直接下载shell脚本,bash运行脚本即可
+#bash linux_fanyi.sh
+
+#用法
+#单词：yd zoo
+#批量：for i in `awk -F: '{print $1}' /etc/passwd^Cdo echo $i|xargs yd;done
